@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro | Glow Studio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/cadastro.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+Glow<span>Studio</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="servicos.html">Serviços</a></li>
+
+<li><a href="sobre.html">Sobre</a></li>
+
+<li><a href="contato.html">Contato</a></li>
+
+<li id="usuarioArea">
+    <a href="login.html" class="login-btn">
+        Entrar
+    </a>
+</li>
+</ul>
+
+<div class="hamburguer">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero-pagina">
+
+<h1>Crie sua conta</h1>
+
+<p>Cadastre-se gratuitamente.</p>
+
+</section>
+
+<section class="login">
+
+<form id="formCadastro">
+
+<h2>Cadastro</h2>
+
+<input type="text" id="nome" placeholder="Nome">
+
+<small id="erroNome"></small>
+
+<input type="email" id="email" placeholder="E-mail">
+
+<small id="erroEmail"></small>
+
+<input type="tel" id="telefone" placeholder="Telefone">
+
+<small id="erroTelefone"></small>
+
+<input type="password" id="senha" placeholder="Senha">
+
+<div class="barra">
+
+<div id="forca"></div>
+
+</div>
+
+<small id="erroSenha"></small>
+
+<input type="password" id="confirmar" placeholder="Confirmar senha">
+
+<small id="erroConfirmar"></small>
+
+<button>
+
+Cadastrar
+
+</button>
+
+<div id="cadastroSucesso">
+
+Cadastro realizado com sucesso!
+
+</div>
+
+</form>
+
+</section>
+
+</main>
+
+</body>
+
+</html>

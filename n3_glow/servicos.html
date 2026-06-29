@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Serviços | Glow Studio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+Glow<span>Studio</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="servicos.html">Serviços</a></li>
+
+<li><a href="sobre.html">Sobre</a></li>
+
+<li><a href="contato.html">Contato</a></li>
+
+<li id="usuarioArea">
+    <a href="login.html" class="login-btn">
+        Entrar
+    </a>
+</li>
+</ul>
+
+<div class="hamburguer">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero-pagina">
+
+<h1>Nossos Serviços</h1>
+
+<p>Escolha o serviço ideal para você.</p>
+
+</section>
+
+<section class="pesquisa">
+
+<input
+
+type="text"
+
+id="buscar"
+
+placeholder="Pesquisar serviço...">
+
+</section>
+
+<section class="filtros">
+
+<button class="ativo" data-filter="todos">Todos</button>
+
+<button data-filter="cabelo">Cabelo</button>
+
+<button data-filter="unhas">Unhas</button>
+
+<button data-filter="maquiagem">Maquiagem</button>
+
+<button data-filter="estetica">Estética</button>
+
+</section>
+
+<section class="servicos-grid">
+
+    <article class="servico cabelo">
+
+<img src="images/cabelomorena.jpg">
+
+<h3>Corte Feminino</h3>
+
+<p>Corte moderno personalizado.</p>
+
+<span>R$ 80,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico cabelo">
+
+<img src="images/cabeloloira.jpg">
+
+<h3>Hidratação</h3>
+
+<p>Tratamento profundo.</p>
+
+<span>R$ 120,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico unhas">
+
+<img src="images/manicure2.jpg">
+
+<h3>Manicure</h3>
+
+<p>Esmaltação profissional.</p>
+
+<span>R$45,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico unhas">
+
+<img src="images/manicure3.jpg">
+
+<h3>Alongamento em Gel</h3>
+
+<p>Unhas resistentes e elegantes.</p>
+
+<span>R$160,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico maquiagem">
+
+<img src="images/maquiagem2.jpg">
+
+<h3>Maquiagem Social</h3>
+
+<p>Ideal para eventos.</p>
+
+<span>R$140,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico maquiagem">
+
+<img src="images/maquiagemnoiva.jpg">
+
+<h3>Maquiagem Noiva</h3>
+
+<p>Produção completa.</p>
+
+<span>R$350,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico estetica">
+
+<img src="images/massagem1.jpg">
+
+<h3>Limpeza de Pele</h3>
+
+<p>Renove sua pele.</p>
+
+<span>R$110,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+<article class="servico estetica">
+
+<img src="images/massagem2.jpg">
+
+<h3>Massagem Relaxante</h3>
+
+<p>60 minutos.</p>
+
+<span>R$150,00</span>
+
+<button class="btn-card agendar">
+
+Agendar
+
+</button>
+
+</article>
+
+</section>
+
+<div class="modal">
+
+<div class="modal-content">
+
+<h2>Agendamento realizado!</h2>
+
+<p>
+
+Seu pedido foi enviado com sucesso.
+
+</p>
+
+<button id="fechar">
+
+Fechar
+
+</button>
+
+</div>
+
+</div>
+
+</main>
+
+<script src="js/script.js"></script>
+
+<script src="js/servicos.js"></script>
+
+</body>
+
+</html>
